@@ -1,7 +1,7 @@
-baseurl: /
+# baseurl:
 title: Track my vaccine
 # subtitle: Content-centric blogging
-author: Kathmandu Living Labs
+author: TrackMyVaccine
 simple_search: http://google.com/search
 # description: A Jekyll theme for content-rich sites
 name: tufte
