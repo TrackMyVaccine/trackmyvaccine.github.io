@@ -65,7 +65,7 @@ a {
 
 p > a, cite > a, span > a { @if $link-style == underline
     {
-      color: $text-color;
+      color: $contrast-color;
       text-decoration: none;
       background: -webkit-linear-gradient($bg-color, $bg-color), -webkit-linear-gradient($bg-color, $bg-color), -webkit-linear-gradient(currentColor, currentColor);
       background: linear-gradient($bg-color, $bg-color), linear-gradient($bg-color, $bg-color), linear-gradient(currentColor, currentColor);
@@ -728,6 +728,11 @@ ul.footer-links, .credits{
 .custom-muted {
   color: rgba(20,20,20,0.4);
 }
+
+.custom-contrast {
+  color: $contrast-color;
+}
+
 .custom-nav-logo {
   color: rgba(20, 20, 20, 0.7);
   font-family:'Source Sans Pro'; 
@@ -744,7 +749,7 @@ ul.footer-links, .credits{
 
 .custom-nav-a {
   color: rgba(20, 20, 20, 0.7);
-  // font-family:'Source Sans Pro'; 
+  font-family:'Roboto'; 
   // letter-spacing: unset; 
   // font-size:1.4rem; 
   // text-transform: uppercase; 
@@ -789,7 +794,7 @@ a:hover {
 .custom-large-text {
   font-family: 'Playfair Display';
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   line-height: 1.2;
 }
 
