@@ -755,7 +755,7 @@ ul.footer-links, .credits{
   // text-transform: uppercase; 
   // letter-spacing: 3px; 
   font-weight: 700; 
-  margin-top: 2rem;
+  // margin-top: 2rem;
   // margin:0; 
   // max-width: 70vw; 
   // line-height: 2rem; 
@@ -839,4 +839,79 @@ a:hover {
 .credits  p{
   font-size: 1rem;
   line-height: 1.4
+}
+
+
+.bn49 {
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  // width: 150px;
+  margin: 7px;
+  // color: #ffffff;
+  background-color: #ac2020 !important;
+  color: rgba(255,255,255,0.7);
+
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: 0.2s ease-in ;
+}
+
+.bn49:hover {
+  color: #ffffff;
+  padding: 16px;
+
+  // border: 5px solid #000;
+}
+
+
+
+
+.btn41-43 {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: #ac2020;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-42 {
+  border: 2px solid #ac2020;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.btn-42:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+
+.btn-42:hover {
+  color: #ac2020
+}
+
+.btn-42:hover:after {
+  top: 0;
+  height: 100%;
+}
+
+.btn-42:active {
+  top: 2px;
 }
